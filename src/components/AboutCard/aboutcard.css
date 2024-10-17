@@ -1,0 +1,35 @@
+.about-card {
+  width: 345px;
+  text-align: center;
+  border: 0.1rem solid var(--color-primary);
+  border-radius: 8rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-0.6rem);
+  box-shadow: black;
+}
+
+.about-card-media {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.about-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
+.about-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.about-description {
+  color: #555;
+}

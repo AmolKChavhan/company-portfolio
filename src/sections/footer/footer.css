@@ -1,0 +1,59 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+.footer .MuiTypography-body1 {
+  width: 100%;
+  margin: 0.6rem 0 2rem;
+}
+
+.footer-copyright {
+  width: 100%;
+  margin: 0.6rem 0 2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: var(--color-primary);
+}
+
+.footer_socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 2rem 0 0;
+  justify-content: center;
+}
+
+.footer_socials .footer-social-link {
+  width: 1.8rem;
+  aspect-ratio: 1 / 1;
+  background: var(--color-light);
+  color: var(--color-black);
+  display: grid;
+  place-items: center;
+  border-radius: var(--border-radius-3);
+  text-decoration: none;
+}
+
+.footer_socials .footer-social-link:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: translateX(-0.5rem);
+}

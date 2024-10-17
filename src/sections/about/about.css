@@ -1,0 +1,240 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
+}
+
+.about_image {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  border: 1rem solid var(--color-primary);
+  border-radius: 8rem 0 8rem;
+  margin: 0 8rem 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.about_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin: auto;
+}
+
+.about_card .MuiPaper-root {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.about_container h3 {
+  text-align: center;
+    background: linear-gradient(
+    60deg,
+    rgba(132, 38, 17, 0.9),
+    rgba(203, 139, 49, 0.9),
+    rgba(255, 236, 139, 0.9)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 2.5rem; 
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.about_container .MuiTypography-body1 {
+  width: 90%;
+  margin: 2rem 0;
+}
+
+/* Mobile Screens */
+@media (min-width: 360px) {
+  .about_image {
+    max-width: 75%;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 85%;
+  }
+}
+
+@media (min-width: 375px) {
+  .about_image {
+    max-width: 70%;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 80%;
+  }
+}
+
+@media (min-width: 414px) {
+  .about_image {
+    max-width: 65%;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 75%;
+  }
+}
+
+/* Tablet / iPad Portrait */
+@media (min-width: 601px) {
+  .about_image {
+    max-width: 60%;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 85%;
+  }
+}
+
+/* Tablet / iPad Landscape */
+@media (min-width: 768px) {
+  .about_container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about_image {
+    max-width: 55%;
+  }
+
+  .about_content {
+    text-align: left;
+    align-items: flex-start;
+    margin: 0 2rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 80%;
+  }
+}
+
+/* Small Desktop / Large Tablets */
+@media (min-width: 1024px) {
+  .about_image {
+    max-width: 50%;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 75%;
+  }
+}
+
+/* Larger Desktop Screens */
+@media (min-width: 1280px) {
+  .about_container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .about_image {
+    max-width: 18rem;
+  }
+
+  .about_content {
+    align-items: flex-start;
+    margin: 0 2rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 35rem;
+  }
+}
+
+/* Common Desktop Resolution */
+@media (min-width: 1366px) {
+  .about_image {
+    max-width: 19rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 36rem;
+  }
+}
+
+/* Standard Large Desktops */
+@media (min-width: 1440px) {
+  .about_image {
+    max-width: 20rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 37rem;
+  }
+}
+
+/* Wider Screens */
+@media (min-width: 1600px) {
+  .about_image {
+    max-width: 21rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 38rem;
+  }
+}
+
+/* Full HD */
+@media (min-width: 1920px) {
+  .about_image {
+    max-width: 22rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 40rem;
+  }
+}
+
+/* QHD */
+@media (min-width: 2560px) {
+  .about_image {
+    max-width: 25rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 45rem;
+  }
+}
+
+/* 4K UHD */
+@media (min-width: 3840px) {
+  .about_image {
+    max-width: 30rem;
+  }
+
+  .about_content .MuiTypography-body1 {
+    width: 50rem;
+  }
+}
